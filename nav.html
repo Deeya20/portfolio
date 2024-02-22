@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h1>Diya</h1>
+        </div>
+        <ul class="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Help</li>
+        </ul>
+        <div class="menu">
+            <i class="fa-solid fa-bars" id="me"></i>
+            <i class="fa-solid fa-circle-xmark" id="w"></i>
+        </div>
+    </div>
+    <style>
+        .navbar{
+            background-color: black;
+            color: white;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 60px;
+        }
+        .logo{
+            position: absolute;
+            left: 30px;
+        }
+        .nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .nav li{
+            list-style: none;
+            margin: 15px;
+            cursor: pointer;
+        }
+        .menu{
+            display:none;
+        }
+        @media  (max-width:600px){
+            .nav{
+                position: relative;
+                left: -100%;
+
+            }
+            .nav.active{
+                left: 0;
+                transition: 0.3s;
+                flex-direction: column;
+                width: 95vh;
+            }
+            .menu{
+                display: block;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            #w{
+display: none;
+            }
+     
+        
+        }
+    </style>
+    <script>
+        let menu=document.querySelector(".menu");
+let nav=document.querySelector(".nav");
+let i=document.querySelector("#me");
+let w=document.querySelector("#w");
+menu.addEventListener("click",function(){
+    nav.classList.toggle("active");
+    i.style.display="none";
+    w.style.display="block";
+
+    
+})
+nav.addEventListener("click",function(){
+    nav.classList.remove("active");
+    i.style.display="block";
+    w.style.display="none";
+})
+
+    </script>
+</body>
+</html>
+<!---
+    scroll customize
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+   background: linear-gradient(rgb(231, 171, 171),rgb(250, 248, 248));
+}
+::-webkit-scrollbar-track{
+    background: #ddd;
+}
+-->

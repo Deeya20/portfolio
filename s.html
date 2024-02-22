@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return valid()" action="nav.html">
+    email: <input type="text" id="em" />
+    <button type="submit">Submit</button>
+</form>
+<script>
+   
+    function valid(){
+        let email=document.getElementById('em').value;
+    if(email==""){
+        alert("fill");
+        return false;
+       }
+       else if(!email.match(/^[a-zA-Z0-9]+@+[a-z]+.+[a-z]$/)){
+        alert("no");
+        return false;
+       }
+     
+       else{
+        alert('yes');
+        return true;
+        
+       }
+    }
+</script>
+</body>
+
+</html>

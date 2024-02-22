@@ -1,0 +1,228 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+scroll-behavior: smooth;
+
+
+}
+h3{
+    font-size: 1.2vw;
+    color: rgb(129, 129, 231);
+
+}
+p{
+    font-size: 1.2vw;
+}
+a{
+    font-size: 1.2vw;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+/*Navbar*/
+.navbar {
+    height: 5vw;
+    width: 100vw;
+    display: flex;
+
+    align-items: center;
+
+
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(221, 220, 245, 0.44);
+
+
+
+}
+
+.logo {
+    font-size: 1vw;
+    width: 70%;
+    margin-left: 4vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(129, 129, 231);
+
+
+}
+
+
+.right {
+    font-size: 1vw;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+
+
+
+}
+
+.overview {
+    background-image: url("Ecommerce virtushop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 40vw;
+    filter: blur(0.8px);
+    box-shadow: rgb(235, 234, 234) 4px 4px 10px;
+    ;
+
+}
+
+.texts {
+   width:88vw;
+   display: flex;
+ flex-direction: column;
+gap:2.5vw;
+margin: 5vw;
+margin-bottom: 3vw;
+
+
+
+}
+
+
+.text p{
+    font-size: 1.2vw;
+}
+.text h3 {
+    padding-bottom: 0.5vw;
+    font-size: 1.2vw;
+    color: rgb(129, 129, 231);
+}
+
+.list {
+    margin-left: 4vw;
+    margin-top: 0.5vw;
+    font-size:1.2vw;
+}
+.twolist{
+    padding-bottom: 1vw;
+   
+}
+.photo h3{
+  color:  rgb(129, 129, 231); 
+  font-size: 1.2vw;
+}
+.design{
+    margin-left: 5vw;
+   
+}
+
+
+.wireframe{
+    background-color:  rgba(221, 220, 245, 0.44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 62vw;
+}
+.wireframe img{
+  align-items: center;
+    width:50vw;
+    height:60vw;
+   
+    
+}
+.ctext{
+    font-size: 1.2vw;
+    margin-left: 5vw;
+   
+    margin-top:2vw;
+}
+.color{
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height:50vw;
+    background-color:  rgba(221, 220, 245, 0.44);
+   
+     
+
+}
+.pcolor{
+  background-image: url("colors virtu.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:45%;
+    height: 45vw;
+  
+   
+}
+.comp{
+    background-image: url("components virtu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 45vw;
+    
+}
+.final{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 62vw;
+}
+.fimg{
+    background-image: url("Ecommerce virtushop1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70vw;
+    height: 55vw;
+    
+   
+     
+      
+  }
+.feed{
+    margin-top: 0.8vw;
+    margin-left: 1.5vw;
+    font-size: 1.2vw;
+}
+.feedbacks{
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+.twofeeds{
+    margin-top: 2vw;
+    width: 100vw;
+    height: 72vw;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 3.5vw;
+}
+.twofeeds img{
+   
+    box-shadow: rgb(235, 234, 234) 4px 4px 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4vw;
+}
+.diya{
+    font-size: 1.2vw;
+margin-left: 5vw;
+}
+.copy{
+    margin-right: 7vw;
+}

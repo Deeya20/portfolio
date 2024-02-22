@@ -1,0 +1,76 @@
+h1,p{
+font-size: 1.2vw;
+margin-top: 1vw;
+}
+h1{
+    font-size: 2vw;
+}
+
+.intro{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vw;
+    width: 100vw;
+    height: 42vw;
+
+ 
+}
+.introtext{
+    width:45vw;
+ 
+}
+.image{
+    background-image: url("Group 12.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 15vw;
+ 
+   
+    
+    
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+.pro_text{
+    width: 40vw;
+    height: 33vw;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+  color: rgb(149, 148, 148);
+}
+.project{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 25vw;
+    filter: blur(0.8px);
+    box-shadow: rgb(235, 234, 234) 4px 4px 10px;
+    ;
+
+    margin-bottom: 2vw;
+}
+.project1{
+    background-image: url("Ecommerce virtushop (1).jpg");
+}
+.project2{
+    background-image: url("ntcc.jpg");
+}
+.project4{
+    background-image: url("PRAC1.jpg");
+}
+.project3{
+    background-image: url("Frame 1.jpg");
+}
+a{
+    
+    text-decoration-color: rgb(164, 143, 242);
+}
